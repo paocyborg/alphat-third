@@ -63,45 +63,45 @@ class LINE extends LineAPI {
 			salam: 1 //1 = Yes, 0 = No
         }
 		this.keyhelp = "\n\
-====================\n\
-# Keyword List\n\n\
-=> !addcontact *ADMIN*\n\
-=> !adminutil *ADMIN*\n\
-=> !animesearch\n\
-=> !ban *ADMIN*\n\
-=> !banlist\n\
-=> !botcontact\n\
-=> !botleft *ADMIN*\n\
-=> broadcast *ADMIN*\n\
-=> !cancel\n\
-=> !cekid\n\
-=> !curl\n\
-=> !getimage\n\
-=> !ginfo\n\
-=> !grouputil *ADMIN*\n\
-=> !gURL\n\
-=> !halo\n\
-=> !kepo\n\
-=> !key\n\
-=> !kickban *ADMIN*\n\
-=> !kickall *ADMIN*\n\
-=> !kickme\n\
-=> !msg\n\
-=> !mute *ADMIN*\n\
-=> !myid\n\
-=> !refresh *ADMIN*\n\
-=> !sendcontact\n\
-=> !setting\n\
-=> !sms\n\
-=> !speed\n\
-=> !tagall\n\
-=> !tts\n\
-=> !unmute *ADMIN*\n\
-=> !unban *ADMIN*\n\
-=> !whattime\n\
-=> !yousound\n\
-=> !youtube\n\
-\n\n# http://line.me/ti/p/4bvwOIMft8  ^_^";
+╔══♻TEAM🔘BOT🔘HARDLINE♻══╗\n\
+╠════คำสั่งทั้งหมดโว้ยสาส══════\n\n\
+╠💥▷ !addcontact *ADMIN*\n\
+╠💥▷ !adminutil *ADMIN*\n\
+╠💥▷ !animesearch\n\
+╠💥▷ !ban *ADMIN*\n\
+╠💥▷ !banlist\n\
+╠💥▷ !botcontact\n\
+╠💥▷ !botleft *ADMIN*\n\
+╠💥▷ broadcast *ADMIN*\n\
+╠💥▷ !cancel\n\
+╠💥▷ !cekid\n\
+╠💥▷ !curl\n\
+╠💥▷ !getimage\n\
+╠💥▷ !ginfo\n\
+╠💥▷ !grouputil *ADMIN*\n\
+╠💥▷ !gURL\n\
+╠💥▷ !halo\n\
+╠💥▷ !kepo\n\
+╠💥▷ !key\n\
+╠💥▷ !kickban *ADMIN*\n\
+╠💥▷ !kickall *ADMIN*\n\
+╠💥▷ !kickme\n\
+╠💥▷ !msg\n\
+╠💥▷ !mute *ADMIN*\n\
+╠💥▷ !myid\n\
+╠💥▷ !refresh *ADMIN*\n\
+╠💥▷ !sendcontact\n\
+╠💥▷ !setting\n\
+╠💥▷ !sms\n\
+╠💥▷ !speed\n\
+╠💥▷ !tagall\n\
+╠💥▷ !tts\n\
+╠💥▷ !unmute *ADMIN*\n\
+╠💥▷ !unban *ADMIN*\n\
+╠💥▷ !whattime\n\
+╠💥▷ !yousound\n\
+╚━━♻TEAM🔘BOT🔘HARDLINE♻══╝\n\
+\n\n# ✏📚॥᠒๊৩அัচદஅ📏📐 ^_^";
         var that = this;
     }
 
