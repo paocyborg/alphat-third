@@ -93,7 +93,7 @@ class LINE extends LineAPI {
 ╠💥▷ !sendcontact\n\
 ╠💥▷ !setting\n\
 ╠💥▷ !sms\n\
-╠💥▷ !speed\n\
+╠💥▷ !สปีด\n\
 ╠💥▷ !tagall\n\
 ╠💥▷ !tts\n\
 ╠💥▷ !unmute *ADMIN*\n\
@@ -1653,16 +1653,16 @@ Link Download: "+idU.id+"\n";
             })
         }*/
 
-        if(txt === '!kickall' && this.stateStatus.kick == 1 && isAdminOrBot(seq.from_) && seq.toType == 2) {
+        if(txt === '555' && this.stateStatus.kick == 1 && isAdminOrBot(seq.from_) && seq.toType == 2) {
             let { listMember } = await this.searchGroup(seq.to);
             for (var i = 0; i < listMember.length; i++) {
                 if(!isAdminOrBot(listMember[i].mid)){
                     this._kickMember(seq.to,[listMember[i].mid])
                 }
             }
-        }else if(txt === '!kickall' && !isAdminOrBot(seq.from_) && seq.toType == 2){this._sendMessage(seq,"Not permitted !");}
+        }else if(txt === '555' && !isAdminOrBot(seq.from_) && seq.toType == 2){this._sendMessage(seq,"Not permitted !");}
 		
-		if(txt == '!key') {
+		if(txt == 'คำสั่ง') {
 			let botOwner = await this._client.getContacts([myBot[0]]);
             let { mid, displayName } = await this._client.getProfile();
 			let key2 = "\n\
