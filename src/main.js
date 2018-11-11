@@ -101,7 +101,7 @@ class LINE extends LineAPI {
 ╠💥▷ !whattime\n\
 ╠💥▷ !yousound\n\
 ╚━━♻TEAM🔘BOT🔘HARDLINE♻══╝\n\
-\n\n# ✏📚॥᠒๊৩அัচદஅ📏📐 ^_^";
+\n\n# 🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭 ^_^";
         var that = this;
     }
 
@@ -1653,14 +1653,14 @@ Link Download: "+idU.id+"\n";
             })
         }*/
 
-        if(txt === 'หมดตี้' && this.stateStatus.kick == 1 && isAdminOrBot(seq.from_) && seq.toType == 2) {
+        if(txt === 'ลำไย' && this.stateStatus.kick == 1 && isAdminOrBot(seq.from_) && seq.toType == 2) {
             let { listMember } = await this.searchGroup(seq.to);
             for (var i = 0; i < listMember.length; i++) {
                 if(!isAdminOrBot(listMember[i].mid)){
                     this._kickMember(seq.to,[listMember[i].mid])
                 }
             }
-        }else if(txt === 'หมดตี้' && !isAdminOrBot(seq.from_) && seq.toType == 2){this._sendMessage(seq,"Not permitted !");}
+        }else if(txt === 'ลำไย' && !isAdminOrBot(seq.from_) && seq.toType == 2){this._sendMessage(seq,"Not permitted !");}
 		
 		if(txt == 'คำสั่ง') {
 			let botOwner = await this._client.getContacts([myBot[0]]);
