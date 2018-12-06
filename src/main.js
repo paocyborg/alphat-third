@@ -1,4 +1,4 @@
-const LineAPI = require('./api');
+#const LineAPI = require('./api');
 const request = require('request');
 const fs = require('fs');
 const unirest = require('unirest');
